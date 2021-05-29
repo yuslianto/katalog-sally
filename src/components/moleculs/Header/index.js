@@ -1,9 +1,12 @@
 import React from 'react'
 
+import './header.scss'
+
 const Header = () => {
   return (
-    <div>
-      <p> this header component </p>
+    <div className="header">
+      <p className="logo-app"> Katalog Sally AB </p>
+      <p className="menu-item">Log Out</p>
     </div>
   )
 }

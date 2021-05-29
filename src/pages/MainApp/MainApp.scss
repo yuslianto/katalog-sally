@@ -1,22 +1,8 @@
-.main-page {
+.main-app-wrapper {
   display: flex;
-  height: 100%;
-
-}
-
-.left {
-  flex: 1;
-  background-color: aqua;
-  height: 100%;
-  .bg-image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  flex-direction: column;
+  height: 100vh;
+  .content-wwrapper {
+    flex: 1;
   }
-}
-
-.right {
-  width: 400px;
-  background-color: brown;
-  height: 100%;
 }
